@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.testplugin"
+        id        = "com.phonegap.testpluginbarcode"
         version   = "1.0.0">
-    <name>Child Browser Test</name>
+    <name>Barcode API Test</name>
 
     <description>
-        Child Browser Test   
+        Barcode API Test
  </description>
 
     
-    <gap:plugin name="ChildBrowser" />
+    <gap:plugin name="BarcodeScanner" />
     <feature name="http://api.phonegap.com/1.0/device" />
 
     <preference name="phonegap-version" value="2.2.0" />
